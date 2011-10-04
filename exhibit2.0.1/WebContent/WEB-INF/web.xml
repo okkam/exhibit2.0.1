@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MyServletController</display-name>
+    <servlet-name>MyServletController</servlet-name>
+    <servlet-class>it.okkam.exhibit2.MyServletController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyServletController</servlet-name>
+    <url-pattern>/MyServletController</url-pattern>
+  </servlet-mapping>
 </web-app>
